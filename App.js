@@ -114,26 +114,21 @@ export default App;
 
 //1.Components==
 
-import React from 'react';
+import  React,{Component} from 'react';
+
 import {Text,StyleSheet,View} from 'react-native';
 
-const HelloWorldApp = () => {
+import {SplashScreen } from './Assignment1/splashscreen';
+
+import {MyClass} from './Basics/basic'
+
+
+export  class App extends Component {
+  render() {
   return (
-    <View style = { styles.container }>
-      <Text>Hello, world!</Text>
-    </View>
-  );
-}
-export default HelloWorldApp;
-
-
-const styles = StyleSheet.create({
-  container: {
-    flex : 1,
-    alignItems: 'center',
-    backgroundColor: 'blue',
-    justifyContent : 'center',
-  },
- 
-});
-  
+  // <SplashScreen/>
+  <MyClass/>
+  )
+  }
+  }
+  export default App;
