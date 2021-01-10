@@ -121,13 +121,13 @@ import {Text,StyleSheet,View} from 'react-native';
 import {SplashScreen } from './Assignment1/splashscreen';
 
 import {MyClass} from './Basics/basic'
-
+import  {Login} from './Assignment1/login'
 
 export  class App extends Component {
   render() {
   return (
   // <SplashScreen/>
-  <MyClass/>
+  <Login/>
   )
   }
   }
