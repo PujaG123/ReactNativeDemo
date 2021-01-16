@@ -16,19 +16,19 @@ export class Home extends Component {
         <View style={styles.flexrow_container}>
           <TouchableOpacity style={styles.cell}>
             <Image style={styles.boxImage}
-              source={require('./cupboardicon.png')} />
+              source={require('./tableicon.png')} />
           </TouchableOpacity>
 
           <TouchableOpacity style={styles.cell}>
             <Image style={styles.boxImage}
-              source={require('./cupboardicon.png')} />
+              source={require('./sofaicon.png')} />
           </TouchableOpacity>
         </View>
 
         <View style={styles.flexrow_container}>
           <TouchableOpacity style={styles.cell}>
             <Image style={styles.boxImage}
-              source={require('./cupboardicon.png')} />
+              source={require('./chairsicon.png')} />
           </TouchableOpacity>
           <TouchableOpacity style={styles.cell}>
             <Image style={styles.boxImage}
