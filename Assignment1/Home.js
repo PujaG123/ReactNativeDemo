@@ -39,7 +39,8 @@ export class Home extends Component {
         <View style={styles.secondcontainer}>
         <TouchableOpacity
                 style={styles.bottomTabs}>
-                <Text style={{alignSelf:'center', alignItems :'center',
+                <Text style={{alignSelf:'center', 
+                alignItems :'center',
                     justifyContent:'center',
                     color:'#e91b1a',
                     fontWeight : 'bold',
@@ -51,7 +52,7 @@ export class Home extends Component {
                     justifyContent:'center',
                     color:'#e91b1a',
                     fontWeight : 'bold',
-                    fontSize: 15}}>Home</Text>
+                    fontSize: 15}}>Contact Us</Text>
             </TouchableOpacity>
             <TouchableOpacity
                 style={styles.bottomTabs}>
@@ -59,7 +60,7 @@ export class Home extends Component {
                     justifyContent:'center',
                     color:'#e91b1a',
                     fontWeight : 'bold',
-                    fontSize: 15}}>Home</Text>
+                    fontSize: 15}}>Settings</Text>
             </TouchableOpacity>
 
 
@@ -77,7 +78,8 @@ const styles = StyleSheet.create({
     height:'10%',
     width : '100%',
     flexDirection:'row',
-    backgroundColor: 'green'
+    backgroundColor: 'red',
+    marginTop:20
 },
   dashboardButtonContainer: {
     elevation: 1,
@@ -179,7 +181,7 @@ const styles = StyleSheet.create({
   },
   flexrow_container: {
     flexDirection: 'row',
-    backgroundColor: 'blue',
+    backgroundColor: 'white',
     justifyContent: 'center',
     height: 250,
     width: '100%'
@@ -188,13 +190,13 @@ const styles = StyleSheet.create({
     backgroundColor: "red",
     height: '100%',
     width: '50%',
-    margin: 5,
+    margin: 1,
   },
   bottom_container: {
     flexDirection: 'column',
     backgroundColor: 'blue',
     justifyContent: 'center',
     height: '33%',
-    width: '100%'
+    width: '100%',
   },
 });
