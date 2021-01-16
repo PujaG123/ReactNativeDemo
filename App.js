@@ -120,14 +120,14 @@ import {Text,StyleSheet,View} from 'react-native';
 
 import {SplashScreen } from './Assignment1/splashscreen';
 
-import {MyClass} from './Basics/basic'
-import  {Login} from './Assignment1/login'
-
+import {MyClass} from './Basics/basic';
+import  {Login} from './Assignment1/login';
+import {Home} from './Assignment1/Home';
 export  class App extends Component {
   render() {
   return (
   // <SplashScreen/>
-  <Login/>
+  <Home/>
   )
   }
   }
