@@ -9,7 +9,7 @@ export  class SplashScreen extends Component {
                 <View style = {styles.viewStyle}>
                     <Image
                         style={styles.imageStyle}
-                        source={require('./splashImage.png')}
+                        source={require('./Background.png')}
                     />
                 </View>
         );
@@ -20,8 +20,8 @@ const styles = StyleSheet.create
     (
         {
             imageStyle: {
-                 height: 400,
-                 width: 400
+                 height: '100%',
+                 width: '100%'
             },
             viewStyle:
             {
